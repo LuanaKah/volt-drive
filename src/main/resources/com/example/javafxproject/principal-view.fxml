@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="996.0" style="-fx-background-color: #708090;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.principalController">
+   <children>
+      <Label fx:id="VOLTDRIVEtext" layoutX="407.0" layoutY="14.0" prefHeight="58.0" prefWidth="183.0" text="VOLT DRIVE" textAlignment="CENTER">
+         <font>
+            <Font name="Onyx" size="61.0" />
+         </font>
+      </Label>
+      <Label fx:id="text" layoutX="173.0" layoutY="651.0" prefHeight="43.0" prefWidth="793.0" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="marcatext" layoutX="24.0" layoutY="103.0" prefHeight="25.0" prefWidth="49.0" text="Marca" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="modelotext" layoutX="16.0" layoutY="147.0" prefHeight="25.0" prefWidth="60.0" text="Modelo" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagemcarro" fitHeight="594.0" fitWidth="948.0" layoutX="25.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true" />
+      <ComboBox fx:id="caixamodelo" layoutX="77.0" layoutY="147.0" opacity="0.11" prefWidth="150.0" />
+      <ComboBox fx:id="caixamarca" layoutX="77.0" layoutY="103.0" opacity="0.11" prefWidth="150.0" />
+   </children>
+</AnchorPane>

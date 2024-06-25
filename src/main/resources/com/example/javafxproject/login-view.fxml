@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #708090;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.loginController">
+    <children>
+        <Pane layoutX="150.0" layoutY="33.0" prefHeight="347.0" prefWidth="301.0" style="-fx-background-color: #F0F8FF;">
+            <children>
+                <Label layoutX="116.0" layoutY="44.0" prefHeight="30.0" prefWidth="70.0" text="Login" textAlignment="CENTER">
+                    <font>
+                        <Font name="Arial Bold" size="25.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="email" layoutX="34.0" layoutY="124.0" prefHeight="25.0" prefWidth="234.0" promptText="Email123@gmail.com" />
+                <PasswordField fx:id="senha" layoutX="34.0" layoutY="161.0" prefHeight="25.0" prefWidth="234.0" promptText="Informe sua Senha" />
+                <CheckBox fx:id="loginadm" layoutX="43.0" layoutY="196.0" mnemonicParsing="false" text="Logar como Administrador" />
+                <Button fx:id="concluir" layoutX="121.0" layoutY="236.0" mnemonicParsing="false" onAction="#buttonconcluir" style="-fx-background-color: #4682B4;" text="Concluir" />
+                <Hyperlink fx:id="cadastrar" layoutX="122.0" layoutY="304.0" onAction="#buttonCadastrar" text="Cadastrar" />
+                <Label fx:id="texto" layoutX="25.0" layoutY="277.0" prefHeight="17.0" prefWidth="251.0" textAlignment="CENTER" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
